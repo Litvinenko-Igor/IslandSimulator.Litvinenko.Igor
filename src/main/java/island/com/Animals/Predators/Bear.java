@@ -7,10 +7,10 @@ import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Bear extends Predators{
-    private static double BASE_WEIGHT = 500.0; // Базова вага виду
-    private static int MAX_COUNT_PER_CELL = 5; // Макс. на клітинці
+    private static final double BASE_WEIGHT = 500.0; // Базова вага виду
+    private static final int MAX_COUNT_PER_CELL = 5; // Макс. на клітинці
     private static final int MAX_SPEED = 2; // Макс. швидкість (клітинок за хід)
-    private static double FOOD_CAPACITY = 80.0; // Потрібно їжі для насичення
+    private static final double FOOD_CAPACITY = 80.0; // Потрібно їжі для насичення
 
     public Bear(int startX, int startY){
         super(startX, startY);

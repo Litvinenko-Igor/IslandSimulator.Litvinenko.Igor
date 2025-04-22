@@ -5,10 +5,10 @@ import island.com.Map.Location;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Eagle extends Predators{
-    private static double BASE_WEIGHT = 6.0; // Базова вага виду
-    private static int MAX_COUNT_PER_CELL = 20; // Макс. на клітинці
+    private static final double BASE_WEIGHT = 6.0; // Базова вага виду
+    private static final int MAX_COUNT_PER_CELL = 20; // Макс. на клітинці
     private static final int MAX_SPEED = 3; // Макс. швидкість (клітинок за хід)
-    private static double FOOD_CAPACITY = 1.0; // Потрібно їжі для насичення
+    private static final double FOOD_CAPACITY = 1.0; // Потрібно їжі для насичення
 
     public Eagle(int startX, int startY){
         super(startX,startY);
