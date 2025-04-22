@@ -10,11 +10,4 @@ public abstract class Plant {
         this.x = startX;
         this.y = startY;
     }
-    public int getX() {
-        return this.x;
-    }
-
-    public int getY() {
-        return this.y;
-    }
 }
