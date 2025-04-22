@@ -5,7 +5,6 @@ import island.com.Map.Island;
 import island.com.Map.Location;
 
 import java.lang.reflect.Constructor;
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
